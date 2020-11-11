@@ -15,7 +15,7 @@ class Currency:
             loaded_dic = json.load(x)
         return loaded_dic
     
-    # iterate and display the date and base currency
+    # iterate and displ the date and base currency
     def display_basic_info(self):
         for key, value in self.xchange_rates.items():
             if key == "date":
